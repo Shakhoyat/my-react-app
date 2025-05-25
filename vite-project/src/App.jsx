@@ -5,7 +5,11 @@ import Food from './Food.jsx';
 function App() {
  
   return(
-    <><Header /><Footer /></>
+    <>
+    <Header />
+    <Food/>
+    <Footer />
+    </>
   );
 }
 
